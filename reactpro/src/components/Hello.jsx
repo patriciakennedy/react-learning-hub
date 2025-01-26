@@ -1,15 +1,13 @@
-const name = "Blessed";
 
-function displayMessage() {
-   return "Wow!";
-};
-
-
-
-function Hello() {
+function Hello(props) {
   //every component must return jsx
-  return <h1>Hello from a component! {displayMessage()}</h1>;
-};
+  console.log(props);
+  return (
+   <div>
+      <h1>{props.message} {props.name}</h1>
+   </div>
+  );
+}
 
 export default Hello;
 
