@@ -1,11 +1,9 @@
 
-function Hello(props) {
+function Hello({name, message}) {
   //every component must return jsx
-  console.log(props);
-  const { name, message } = props;
   return (
    <div>
-      <h1>{message} {name}</h1>
+      <h1>{message} {name} </h1>
    </div>
   );
 }
