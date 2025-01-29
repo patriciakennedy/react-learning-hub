@@ -2,9 +2,10 @@
 function Hello(props) {
   //every component must return jsx
   console.log(props);
+  const { name, message } = props;
   return (
    <div>
-      <h1>{props.message} {props.name}</h1>
+      <h1>{message} {name}</h1>
    </div>
   );
 }
