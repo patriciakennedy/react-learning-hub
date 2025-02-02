@@ -1,12 +1,17 @@
 // Import JSX files to use
 import Hello from "./components/Hello";
 
-// Passing Arrays to Props
+// Passing entire onject to Props
 function App() {
-  const seatNumbers = [1, 4,7];
+  
+  const person = {
+    name: "Rob",
+    message: "Hi there!",
+    seatNumbers: [1, 4, 7],
+  }
   return (
     <div className="App">
-      <Hello name="Rob" message="Hi there!" seatNumbers={seatNumbers} />
+      <Hello person={person} />
     </div>
   );
 };
