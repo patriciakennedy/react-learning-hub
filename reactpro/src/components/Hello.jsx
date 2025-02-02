@@ -1,9 +1,9 @@
-
-function Hello({name, message}) {
+// Accessing 'seatNumbers' from App.jsx file
+function Hello({name, message, seatNumbers}) {
   //every component must return jsx
   return (
    <div>
-      <h1>{message} {name} </h1>
+      <h1>{message} {name} {seatNumbers} </h1>
    </div>
   );
 }
