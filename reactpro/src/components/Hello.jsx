@@ -1,9 +1,9 @@
-// Accessing 'seatNumbers' from App.jsx file
-function Hello(props) {
+// Accessing 'peoples' object' from App.jsx file
+function Hello({person}) {
   //every component must return jsx
   return (
    <div>
-      <h1>{props.person.message} {props.person.name} {props.person.seatNumbers[2]} </h1>
+      <h1>{person.message} {person.name} {person.seatNumbers[2]} </h1>
    </div>
   );
 }

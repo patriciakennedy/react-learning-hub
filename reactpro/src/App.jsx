@@ -1,6 +1,5 @@
 // Import JSX files to use
 import Hello from "./components/Hello";
-
 // Passing entire onject to Props
 function App() {
   
