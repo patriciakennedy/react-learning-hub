@@ -1,10 +1,10 @@
 // Import JSX files to use
 import Hello from "./components/Hello";
-// Passing entire onject to Props
+import Fruits from './components/Fruits';
+// Rendering Arrays Or Lists In React
 function App() {
   
- 
-  return (
+   return (
     <div className="App">
       <Fruits />
     </div>
@@ -13,4 +13,3 @@ function App() {
 
 export default App;
 
-// whenever you want to use a component, you use it like an HTML tag
