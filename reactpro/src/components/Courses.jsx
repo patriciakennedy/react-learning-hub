@@ -1,5 +1,4 @@
 export default function Courses() {
-    //const fruits = ['Apple', 'Mango', 'Banana', 'Orange', 'Pineapple'];
     const courses = [
         { name: 'HTML', price: 5000, emoji: '👩‍💻' },
         { name: 'CSS', price: 7000, emoji: '👩‍💻' },
