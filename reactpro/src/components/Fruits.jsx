@@ -13,7 +13,7 @@ export default function Fruits() {
                 {fruits.map((fruit) => (
                     <li key={fruit}>
                         {' '}
-                        {fruit.emoji} {fruit.name} {fruit.price}
+                        {fruit.emoji} {fruit.name} ${fruit.price}
                     </li>
                 ))}
             </ul>
