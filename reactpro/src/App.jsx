@@ -4,7 +4,7 @@ import Fruits from './components/Fruits';
 import Courses from './components/Courses';
 // Rendering Arrays Or Lists In React
 function App() {
-  const seatNumbers = [1, 4, 7];
+    const seatNumbers = [1, 4, 7];
     return (
         <div className="App">
             <Hello name="Rob" message="Hi there" seatNumbers={seatNumbers} />
